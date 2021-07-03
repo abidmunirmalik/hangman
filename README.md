@@ -1,6 +1,9 @@
 ### Hangman Game written in Python
 
-### Playing game:
+You can either guess a country or a capital.
+
+
+### Playing game (loosing):
 ```
 $ python3 main.py
 
@@ -48,3 +51,21 @@ Total Missed: 7
 Sorry it was india, You lose.
 ```
 
+### Playing game (winning):
+```
+Country Name: ['k', 'e', 'n', '-', 'a']
+Missed Choices: ['i', 'c', 'd', 'o']
+Total Missed: 4
+
+
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========
+Enter your choice: y
+
+Yes, it was kenya !!! Yay Hangman Saved and You Won !!!
+```
